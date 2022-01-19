@@ -1,0 +1,9 @@
+$rem-base: 16;
+
+@function parseInt($value) {
+  @return $value / ($value * 0 + 1);
+}
+
+@function rem($size) {
+  @return #{(parseInt($size) / $rem-base)}rem;
+}

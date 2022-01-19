@@ -1,0 +1,5 @@
+$breakpoints: (
+  'small':  (screen and min-width:  767px ),
+  'medium': (screen and min-width:  992px ),
+  'large':  (screen and min-width: 1200px )
+) !default;
